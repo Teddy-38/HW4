@@ -32,5 +32,16 @@ public class Main {
         if (ageKind > 24) {
             System.out.println("Если возраст человека равен " + ageKind + " то ему нужно ходить на работу");
         }
+        System.out.println("Task 5");
+        int ageBaby = 10;
+        if (ageBaby < 5) {
+            System.out.println("Если возраст ребенка равен " +ageBaby+ " то ему нельзя кататься на атракционне");
+        }
+        if (ageBaby > 5 && ageBaby < 14) {
+            System.out.println("Если возраст ребенка равен " +ageBaby+ " то ему можно кататься на атракционне в сопровождении");
+        }
+        if (ageBaby > 14) {
+            System.out.println("Если возраст ребенка равен " +ageBaby+ " то ему можно кататься на атракционне без сопровождения");
+        }
     }
 }
