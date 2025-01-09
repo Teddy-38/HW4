@@ -55,5 +55,20 @@ public class Main {
             } else {
             System.out.println("В вагоне нет мест");
         }
+            System.out.println("Task 7");
+        int one = 1;
+        int two = 5;
+        int three = 8;
+
+        boolean oneBig = one > two && one > three;
+        boolean twoBig = two > one && two > three;
+
+        if (oneBig) {
+            System.out.println("Число один - наибольшее из всех.");
+        } else if (twoBig){
+            System.out.println("Число два - наибольшее из всех.");
+        } else {
+            System.out.println("Число три - наибольшее из всех.");
+        }
     }
 }
