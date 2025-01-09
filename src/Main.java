@@ -18,5 +18,19 @@ public class Main {
             System.out.println("Если скорость " +scor+ " то, можно ездить спокойно");
         } else {
             System.out.println("Если скорость " +scor+ " то, придеться заплатить штраф");}
+        System.out.println("Task 4");
+        int ageKind = 30;
+        if (ageKind >= 2 && ageKind <= 6) {
+            System.out.println("Если возраст человека равен " +ageKind+ " то ему нужно ходить в детский сад");
+        }
+        if (ageKind >= 7 && ageKind <= 17) {
+            System.out.println("Если возраст человека равен " +ageKind+ " то ему нужно ходить в школу");
+        }
+        if (ageKind >= 18 && ageKind <= 24) {
+            System.out.println("Если возраст человека равен " + ageKind + " то ему нужно ходить в университет");
+        }
+        if (ageKind > 24) {
+            System.out.println("Если возраст человека равен " + ageKind + " то ему нужно ходить на работу");
+        }
     }
 }
