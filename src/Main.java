@@ -12,5 +12,11 @@ public class Main {
             System.out.println("На улице " +temp+ " градуса, нужно надеть шапку");
         } else {
             System.out.println("На улице " +temp+ " градусов, можно идти без шапки");}
+        System.out.println("Task 3");
+        int scor = 80;
+        if (scor < 60) {
+            System.out.println("Если скорость " +scor+ " то, можно ездить спокойно");
+        } else {
+            System.out.println("Если скорость " +scor+ " то, придеться заплатить штраф");}
     }
 }
