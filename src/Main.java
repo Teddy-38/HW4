@@ -36,7 +36,7 @@ public class Main {
             System.out.println("Если возраст человека равен " + ageKind + " то ему нужно ходить на работу");
         }
         System.out.println("Task 5");
-        int ageBaby = 10;
+        int ageBaby = 7;
         if (ageBaby < 5) {
             System.out.println("Если возраст ребенка равен " + ageBaby + " то ему нельзя кататься на атракционне");
         }
